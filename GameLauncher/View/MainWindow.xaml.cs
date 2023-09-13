@@ -67,5 +67,27 @@ namespace GameLauncher.View
         {
             Close();
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            mainFrame.Navigate(new SCPage());
+           // MessageBox.Show("Здесь скоро появятся новые игры", "Сообщение");
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Скоро","Сообщение");
+          
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Скоро", "Сообщение");
+        }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Скоро", "Сообщение");
+        }
     }
 }

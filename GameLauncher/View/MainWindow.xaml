@@ -202,10 +202,10 @@
         <Grid x:Name="TopMenu" Grid.Row="0" Grid.ColumnSpan="2">
             <Border BorderThickness="1" BorderBrush="#FF303031" Background="Transparent" MouseDown="Border_MouseDown">
                 <StackPanel Orientation="Horizontal">
-                    <Button Template="{StaticResource ResourceKey=TopMenuButtons}" Content="ИГРЫ"/>
-                    <Button Template="{StaticResource ResourceKey=TopMenuButtons}" Content="ОБЩЕНИЕ"/>
-                    <Button Template="{StaticResource ResourceKey=TopMenuButtons}" Content="МАГАЗИН"/>
-                    <Button Template="{StaticResource ResourceKey=TopMenuButtons}" Content="НОВОСТИ"/>
+                    <Button Template="{StaticResource ResourceKey=TopMenuButtons}" Content="ИГРЫ" Click="Button_Click_4"/>
+                    <Button Template="{StaticResource ResourceKey=TopMenuButtons}" Content="ОБЩЕНИЕ" Click="Button_Click_2"/>
+                    <Button Template="{StaticResource ResourceKey=TopMenuButtons}" Content="МАГАЗИН" Click="Button_Click_1"/>
+                    <Button Template="{StaticResource ResourceKey=TopMenuButtons}" Content="НОВОСТИ" Click="Button_Click_3"/>
                     <Button Template="{StaticResource ResourceKey=TopMenuButtons}" Content="ВЫХОД" Click="Button_Click"/>
                 </StackPanel>
             </Border>
