@@ -13,3 +13,4 @@ public partial class Product
 
     public virtual Category? Category { get; set; }
 }
+
