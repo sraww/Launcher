@@ -14,7 +14,7 @@ public partial class MasterContext : DbContext
         : base(options)
     {
     }
-
+    
     public virtual DbSet<Category> Categories { get; set; }
 
     public virtual DbSet<Product> Products { get; set; }
