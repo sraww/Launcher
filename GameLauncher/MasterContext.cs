@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
-namespace GameLauncher;
+using namespace GameLauncher;
 public partial class MasterContext : DbContext
 {
     public MasterContext()
