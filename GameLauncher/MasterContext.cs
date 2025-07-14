@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
 namespace GameLauncher;
-
 public partial class MasterContext : DbContext
 {
     public MasterContext()
